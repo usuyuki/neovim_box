@@ -1,0 +1,6 @@
+services:
+  nv:
+    build: .
+    tty: true
+    volumes:
+      - ./settings:/home/usuyuki/.config/nvim
